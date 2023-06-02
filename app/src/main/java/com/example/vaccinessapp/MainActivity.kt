@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         // criando recyclerview para que recebe o id da nossa recycle
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
-        // definindo um layout para nosso recyclerView caso nao tivessemos definido
+        // definindo um layout para nosso recyclerView
         // passando o contexto e a orientacao do layout, usando o false para nao definir um reverseLayout
         recyclerView.layoutManager = LinearLayoutManager(
             this,
